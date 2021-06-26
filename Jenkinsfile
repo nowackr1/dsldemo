@@ -1,7 +1,6 @@
 
 pipeline {
     agent any
-    when { anyOf { branch 'main'; branch 'test' } }
         stages {
             stage('ScriptStage') {
                 when {
