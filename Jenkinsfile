@@ -3,17 +3,13 @@ pipeline {
     agent any
     environment {
        dotnet = 'C:\\ProgramFiles\\dotnet\\dotnet.exe'
-       DEPLOY_TO = "init"
+       DEPLOY_TO = "main environment"
     }
         stages {
             stage('DeploymentSelection')
             {
                   when {
                         branch 'main'
-                        anyOf {
-                            DEPLOY_TO = 'main'
-                            DEPLOY_TO = 'test'
-                        }
                     }
                     steps{
                         echo "selected environment: ${DEPLOY_TO}"
@@ -23,7 +19,6 @@ pipeline {
                 steps {
                     parallel (
                     "TaskOne" : {
-                        echo "selected environment: ${DEPLOY_TO}"
                         echo 'task one stuff part 1'
                         echo 'task one stuff part 2'
                         echo 'task one stuff part 3'
