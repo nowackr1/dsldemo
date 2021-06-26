@@ -11,6 +11,7 @@ pipeline {
                             environment name: 'DEPLOY_TO', value: 'test'
                         }
                     }
+                    steps{}
             }
             stage('ScriptStage') {
                 steps {
