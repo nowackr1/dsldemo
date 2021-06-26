@@ -32,8 +32,9 @@ pipeline {
             }
             stage('Build') {
                 steps {
-                   bat "cd Calculator"
-                   bat "${dotnet} build"
+                   dir("Calculator"){
+                    bat "${dotnet} build"
+                   }
                 }
             }
             stage('Test') {
