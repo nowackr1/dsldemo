@@ -5,11 +5,14 @@ pipeline {
             stage('ScriptStage') {
                 steps {
                     parallel (
-                    "Taskone" : {
-                        echo 'task one stuff'
+                    "TaskOne" : {
+                        echo 'task one stuff part 1'
+                        echo 'task one stuff part 2'
+                        echo 'task one stuff part 3'
                     },
-                    "Tasktwo" : {
-                        echo 'tasl two stuff'
+                    "TaskTwo" : {
+                        echo 'tasl two stuff part 1'
+                        echo 'tasl two stuff part 2'
                     }
                     )
             }
