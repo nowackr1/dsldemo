@@ -2,7 +2,7 @@
 pipeline {
     agent any
     environment {
-       dotnet = 'C:\\ProgramFiles\\dotnet\\dotnet.exe'
+       dotnet = "C:\\Program Files\\dotnet\\dotnet.exe"
        DEPLOY_TO = "main environment"
     }
         stages {
