@@ -32,7 +32,8 @@ pipeline {
             }
             stage('Build') {
                 steps {
-                    echo 'Building....'
+                   bat "cd Calculator"
+                   bat "${dotnet} build"
                 }
             }
             stage('Test') {
