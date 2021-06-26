@@ -1,6 +1,9 @@
 
 pipeline {
     agent any
+    environment {
+       dotnet = 'C:\\ProgramFiles\\dotnet\\dotnet.exe'
+    }
         stages {
             stage('DeploymentSelection')
             {
@@ -19,7 +22,7 @@ pipeline {
                 steps {
                     parallel (
                     "TaskOne" : {
-                        echo 'selected environment: ${DEPLOY_TO}'
+                        echo "selected environment: ${DEPLOY_TO}"
                         echo 'task one stuff part 1'
                         echo 'task one stuff part 2'
                         echo 'task one stuff part 3'
