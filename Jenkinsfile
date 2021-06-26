@@ -2,14 +2,21 @@
 pipeline {
     agent any
         stages {
-            stage('ScriptStage') {
-                when {
+            stage('DeploymentSelection')
+            {
+                  when {
                         branch 'main'
                         anyOf {
                             environment name: 'DEPLOY_TO', value: 'main'
                             environment name: 'DEPLOY_TO', value: 'test'
                         }
                     }
+                    steps
+                    {
+                        echo 'selected environment: ${DEPLOY_TO}'
+                    }
+            }
+            stage('ScriptStage') {
                 steps {
                     parallel (
                     "TaskOne" : {
