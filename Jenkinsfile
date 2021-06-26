@@ -39,12 +39,19 @@ pipeline {
             }
             stage('Test') {
                 steps {
-                    echo 'Testing....'
+                    dir("CalculatorTests"){
+                    bat "${dotnet} test"
+                   }
                 }
             }
             stage('Clean') {
                 steps {
-                    echo 'Cleaning....'
+                   dir("Calculator"){
+                    bat "${dotnet} clean"
+                   }
+                    dir("CalculatorTests"){
+                    bat "${dotnet} clean"
+                   }
                 }
             }
     }
