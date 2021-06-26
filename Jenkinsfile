@@ -7,7 +7,7 @@ pipeline {
                         branch 'main'
                         anyOf {
                             environment name: 'DEPLOY_TO', value: 'main'
-                            echo 'deploy to main environment'
+                            environment name: 'DEPLOY_TO', value: 'test'
                         }
                     }
                 steps {
