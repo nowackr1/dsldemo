@@ -11,7 +11,9 @@ pipeline {
                             environment name: 'DEPLOY_TO', value: 'test'
                         }
                     }
-                    steps{}
+                    steps{
+                        echo 'selected environment: ${DEPLOY_TO}'
+                    }
             }
             stage('ScriptStage') {
                 steps {
