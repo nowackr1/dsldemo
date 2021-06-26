@@ -11,15 +11,12 @@ pipeline {
                             environment name: 'DEPLOY_TO', value: 'test'
                         }
                     }
-                    steps
-                    {
-                        echo 'selected environment: ${DEPLOY_TO}'
-                    }
             }
             stage('ScriptStage') {
                 steps {
                     parallel (
                     "TaskOne" : {
+                        echo 'selected environment: ${DEPLOY_TO}'
                         echo 'task one stuff part 1'
                         echo 'task one stuff part 2'
                         echo 'task one stuff part 3'
