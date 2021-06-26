@@ -3,6 +3,7 @@ pipeline {
     agent any
     environment {
        dotnet = 'C:\\ProgramFiles\\dotnet\\dotnet.exe'
+       DEPLOY_TO = "init"
     }
         stages {
             stage('DeploymentSelection')
@@ -10,12 +11,12 @@ pipeline {
                   when {
                         branch 'main'
                         anyOf {
-                            environment name: 'DEPLOY_TO', value: 'main'
-                            environment name: 'DEPLOY_TO', value: 'test'
+                            DEPLOY_TO = 'main'
+                            DEPLOY_TO = 'test'
                         }
                     }
                     steps{
-                        echo 'selected environment: ${DEPLOY_TO}'
+                        echo "selected environment: ${DEPLOY_TO}"
                     }
             }
             stage('ScriptStage') {
