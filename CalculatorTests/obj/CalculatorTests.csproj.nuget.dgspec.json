@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\CalculatorTests\\CalculatorTests.csproj": {}
+    "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\CalculatorTests\\CalculatorTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\CalculatorTests\\CalculatorTests.csproj": {
+    "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\CalculatorTests\\CalculatorTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\CalculatorTests\\CalculatorTests.csproj",
+        "projectUniqueName": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\CalculatorTests\\CalculatorTests.csproj",
         "projectName": "CalculatorTests",
-        "projectPath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\CalculatorTests\\CalculatorTests.csproj",
+        "projectPath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\CalculatorTests\\CalculatorTests.csproj",
         "packagesPath": "C:\\Users\\pawelfiderek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\CalculatorTests\\obj\\",
+        "outputPath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\CalculatorTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pawelfiderek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\Calculator.csproj": {
-                "projectPath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\Calculator.csproj"
+              "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\Calculator.csproj": {
+                "projectPath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\Calculator.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\pawelfiderek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pawelfiderek\\AppData\\Roaming\\NuGet\\NuGet.Config",

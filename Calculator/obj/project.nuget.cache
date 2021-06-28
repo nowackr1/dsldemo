@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yHaxwzfDSsGd0HUrdxd0vmEoE0acodXSm6toWn2562fkRuAR2Kynb73m3NluJB1M4WO+JvoTbiWv8V8PVsEo2g==",
+  "dgSpecHash": "Qu7GQqNhGgIVVLNgWVRyCfkcNf1bTdokMhPQteahaRI+sMA3Cbn9D7T4wG6Qig3ew/trLnmVhSsvVyePerbOtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\Calculator\\Calculator.csproj",
+  "projectFilePath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

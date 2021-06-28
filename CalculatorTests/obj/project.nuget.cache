@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sUvLzDfNU60mXchA5Kam4nemnT3rR2BDCoPrZw1/CFLQRj2xW+Jb3/bgyPBbY9qJExTBdPl95qFkg6X+RXyfJQ==",
+  "dgSpecHash": "JIlDgpfK2qyHCpHAl5RhXEckH9VnnErqX9YuNhswM10g498PoiCNWpfWR4gFdt/JE2VfmM62YLPT+Ti489I85g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pawelfiderek\\Desktop\\DslDemo\\TestingSample\\CalculatorTests\\CalculatorTests.csproj",
+  "projectFilePath": "C:\\Users\\pawelfiderek\\Desktop\\AltkomDemo\\dsldemo\\CalculatorTests\\CalculatorTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pawelfiderek\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\pawelfiderek\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
